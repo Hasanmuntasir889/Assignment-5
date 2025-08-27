@@ -11,16 +11,7 @@
   }
   
   /* Navbar */
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #222;
-    color: #fff;
-    padding: 10px 20px;
-    position: sticky;
-    top: 0;
-  }
+ 
   
   .navbar .logo {
     height: 40px;
