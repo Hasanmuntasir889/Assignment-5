@@ -44,10 +44,11 @@
   
   /* Hero */
   .hero {
-    text-align: center;
-    padding: 40px;
-    background: linear-gradient(135deg, #ff4e50, #f9d423);
-    color: white;
+  text-align: center;
+  padding: 40px;
+  background: #064e3b;   /* Dark Green */
+  color: white;
+}
   }
   
   .hero-logo {
