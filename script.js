@@ -22,9 +22,13 @@ function copyNumber(num) {
     console.error("Failed to copy: ", err);
   });
 }
- 
-      
 
+// 📞 Make a call
+function makeCall(service, number) {
+  if (coinCount < 20) {
+    alert("Not enough coins to make a call!");
+    return;
+  }
 
   alert("Calling " + service + " at " + number);
   coinCount -= 20;
